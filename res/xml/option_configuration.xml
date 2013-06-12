@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Configurez le LFE Link">
+		<EditTextPreference
+			android:key="IPadress"
+			android:title="Adresse de la page"
+			android:defaultValue="@string/IPadress"
+			android:summary="Entrez l'adresse de votre page (sans http://)">
+		</EditTextPreference>
+		<CheckBoxPreference
+		    android:key="tts_pref"
+		    android:title="Activer TTS"
+		    android:summary="Cochez pour activer le TTS"
+		    android:defaultValue="True" />
+		<CheckBoxPreference
+		    android:key="shake_pref"
+		    android:title="Activer le Shake"
+		    android:summary="Cochez pour activer le Shake"
+		    android:defaultValue="True" />
+		<EditTextPreference
+			android:key="shake_sens"
+			android:title="Sensibilité du Shake"
+			android:defaultValue="3.0"
+			android:inputType="numberDecimal" 
+			android:summary="Augmentez pour le rendre moins sensible">
+		</EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

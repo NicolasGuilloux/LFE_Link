@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">LFE Link</string>
+    <string name="configuration">Configuration</string>
+    <string name="bienvenue">Bienvenue sur la commande vocale du LFE. Assurez vous de bien avoir allumé l\'ordinateur avec qui dialoguer.</string>
+    <string name="IPadress">192.168.15.x/LFE_Link.php</string>
+    <string name="IPadressinfo">Entrez l\'adresse de la page PHP :</string>
+    <string name="Soninfo">Voulez vous une réponse audio ?</string>
+    <string name="Recinfo">Cliquez pour donner un ordre</string>
+    <string name="Recrepinfo">Votre ordre : </string>
+    <string name="Repinfo">La réponse : </string>
+    <string name="tts_pref_false"></string>
+    <string name="aide_menu">Aide</string>
+    <string name="btn_aide">Cliquez pour tester l\'application</string>
+    <string name="shake_expl">Le shake s\'effectue dès une secousse suffisament importante de l\'utilisateur grâce à l\'accéléromètre de l\'appareil. Pour bien le déclencher, il faut secouer votre smartphone sur les 3 axes (soit x, y et z). Quand vous tenez votre appareil dans les mains, secouez le en arrière et sur la droite ou la gauche en même temps.</string>
+    <string name="shake_axe">Explication du shake</string>
+
+</resources>
